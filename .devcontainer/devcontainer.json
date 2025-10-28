@@ -1,0 +1,9 @@
+{
+  "image": "archlinux:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
+  },
+  "postCreateCommand": "pacman -Sy --noconfirm base-devel git"
+}
